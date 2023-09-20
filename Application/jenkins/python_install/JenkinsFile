@@ -1,0 +1,68 @@
+pipeline {
+    agent {
+        label 'cz-bb-jenkins-slave1' // Replace with your slave label
+    }
+    environment {
+        PYENV_ROOT = "${WORKSPACE}/.pyenv"
+        PATH = "${PYENV_ROOT}/shims:${PYENV_ROOT}/bin:${PATH}"
+    }
+
+    stages {
+        stage('Prepare') {
+            steps {
+                // Update the package list
+                sh 'sudo yum update -y'
+                // Install necessary dependencies including Git and Patch
+                sh 'sudo yum install -y gcc openssl-devel bzip2-devel libffi-devel zlib-devel wget git patch'
+            }
+        }
+
+        stage('Clean pyenv') {
+            steps {
+                // Remove existing pyenv directory if it exists
+                sh 'rm -rf ${PYENV_ROOT}'
+            }
+        }
+
+        stage('Install pyenv') {
+            steps {
+                // Install pyenv
+                sh 'curl https://pyenv.run | bash'
+                sh 'echo \'eval "$(pyenv init -)"\' >> ~/.bashrc'
+                sh 'source ~/.bashrc'
+            }
+        }
+
+        stage('Install Python') {
+            steps {
+                // Install Python 3.9.7 with optimizations
+                sh 'pyenv install 3.9.7'
+                sh 'pyenv global 3.9.7'
+                sh 'pyenv rehash'
+                // Check the installed Python version
+                sh 'python --version'
+            }
+        }
+
+        stage('Install Pip') {
+            steps {
+                // Install Pip
+                sh 'curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py'
+                sh 'python get-pip.py'
+            }
+        }
+
+        stage('Install pika') {
+            steps {
+                // Install the pika package using Pip
+                sh 'pip install pika'
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Python 3.9, Pip, and pika installed successfully.'
+        }
+    }
+}

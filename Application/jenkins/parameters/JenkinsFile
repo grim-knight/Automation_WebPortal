@@ -1,0 +1,132 @@
+pipeline {
+    agent {
+        label 'cz-bb-jenkins-slave1' // Replace with your slave label
+    }
+    parameters {
+        // Add a parameter for environment
+        choice(name: 'ENVIRONMENT', choices: ['stage', 'infra', 'prod1', 'prod2'], description: 'Select the environment')
+        // Add parameters for window_target as JSON strings for each environment
+        string(name: 'STAGE_WINDOW_TARGET_JSON', defaultValue: '{"key":"tag:PatchGroup","values":"WinUpdate"}', description: 'JSON representation of window_target map for Stage')
+        string(name: 'INFRA_WINDOW_TARGET_JSON', defaultValue: '{"key":"tag:PatchGroup","values":"InfraWindows"}', description: 'JSON representation of window_target map for Infra')
+        string(name: 'PROD1_WINDOW_TARGET_JSON', defaultValue: '{"key":"tag:PatchGroup","values":"Prod1Windows"}', description: 'JSON representation of window_target map for Prod1')
+        string(name: 'PROD2_WINDOW_TARGET_JSON', defaultValue: '{"key":"tag:PatchGroup","values":"Prod2Windows"}', description: 'JSON representation of window_target map for Prod2')
+    }
+    environment {
+        S3_BUCKET = 'ssm-patch-automation-cz' // Replace with your bucket
+        S3_OBJECT_KEY = 's3://ssm-patch-automation-cz/ENV/ssm_windows_patching/${ENVIRONMENT}/' // Specify the URI from the S3 bucket
+        WORK_DIR = "${WORKSPACE}/terraform-code"
+        PLAN_FILE = "${WORK_DIR}/tfplan"
+    }
+    stages {
+        stage('Download Terraform Code') {
+            steps {
+                echo '--- Downloading Terraform Code ---'
+                script {
+                    // Create a directory to store Terraform code
+                    sh "mkdir -p ${WORK_DIR}"
+                    // Download the Terraform code folder from S3
+                    sh "aws s3 sync ${S3_OBJECT_KEY} ${WORK_DIR}"
+                }
+            }
+        }
+        stage('Terraform Init') {
+            steps {
+                echo '--- Initializing Terraform ---'
+                script {
+                    sh "cd ${WORK_DIR} && terraform init"
+                }
+            }
+        }
+        stage('Terraform Plan') {
+            steps {
+                echo '--- Creating Terraform Plan ---'
+                script {
+                    def selectedEnvironment = params.ENVIRONMENT
+                    echo "Received environment in Jenkins: ${selectedEnvironment}"
+                    // Passing the environment-specific variable to Terraform
+                    def windowTargetMap = [
+                        'stage': params.STAGE_WINDOW_TARGET_JSON,
+                        'infra': params.INFRA_WINDOW_TARGET_JSON,
+                        'prod1': params.PROD1_WINDOW_TARGET_JSON,
+                        'prod2': params.PROD2_WINDOW_TARGET_JSON
+                    ]
+                    // Pass the appropriate environment-specific variable to your Terraform module
+                    def windowTarget = windowTargetMap[selectedEnvironment]
+                    sh "cd ${WORK_DIR} && terraform plan -var 'window_target=${windowTarget}' -out=tfplan | sed 's/\\x1B\\[[0-9;]*[mK]//g'"
+                    // Stash the tfplan file
+                    // stash(name: 'tfplan_stash', includes: '**/tfplan')
+                }
+            }
+        }
+        stage('Consume RabbitMQ Message') {
+            steps {
+                script {
+                    try {
+                        def rabbitmqMessage = sh(
+                            script: """
+                                cd ${WORK_DIR}
+                                ls ${WORK_DIR} -la
+                                python3 rabbitmq_consumer.py  # Replace with the correct path
+                            """,
+                            returnStdout: true
+                        ).trim() // Trim the message here
+        
+                        echo "Received message from RabbitMQ: ${rabbitmqMessage}"
+        
+                        // Set an environment variable to store the message
+                        env.RABBITMQ_MESSAGE = rabbitmqMessage
+                    } catch (Exception e) {
+                        error "Failed to consume RabbitMQ message: ${e.message}"
+                    }
+                }
+            }
+        }
+        stage('Confirm Plan') {
+            when {
+                expression { env.RABBITMQ_MESSAGE == 'proceed' }
+            }
+            steps {
+                echo '--- Proceeding to nextstages ---'
+            }
+        }
+        stage('Terraform Apply') {
+            when {
+                expression { env.RABBITMQ_MESSAGE == 'proceed' }
+            }
+            steps {
+                echo '--- Applying Terraform Plan ---'
+                script {
+                    // unstash 'tfplan_stash'
+                    def applyOutput = sh(script: "cd ${WORK_DIR} && terraform apply -auto-approve tfplan", returnStatus: true, returnStdout: true)
+                    echo "Terraform Apply Output:\n${applyOutput}"
+                }
+            }
+        }
+        stage('Terraform Destroy') {
+            when {
+                expression { env.RABBITMQ_MESSAGE == 'proceed' }
+            }
+            steps {
+                echo '--- Destroy Terraform Plan ---'
+                script {
+                    // Passing the environment-specific variable to Terraform
+                    def windowTargetMap = [
+                        'stage': params.STAGE_WINDOW_TARGET_JSON,
+                        'infra': params.INFRA_WINDOW_TARGET_JSON,
+                        'prod1': params.PROD1_WINDOW_TARGET_JSON,
+                        'prod2': params.PROD2_WINDOW_TARGET_JSON
+                    ]
+                    // Pass the appropriate environment-specific variable to your Terraform module
+                    def selectedEnvironment = params.ENVIRONMENT
+                    def windowTarget = windowTargetMap[selectedEnvironment]
+                    sh "cd ${WORK_DIR} && terraform plan -var 'window_target=${windowTarget}' -destroy -out=destroyPlan"
+                    // sh "cp tfplan cleanedtfplan | sed 's/\\x1B\\[[0-9;]*[mK]//g' > cleanedtfplan"
+                    // def tfplanPath = "${WORK_DIR}/cleanedtfplan"
+                    // sh "echo 'Here is the Plan: ' && cat ${tfplanPath}"
+                    def applyOutput = sh(script: "cd ${WORK_DIR} && terraform apply -auto-approve destroyPlan", returnStatus: true, returnStdout: true)
+                    echo "Terraform Destroy Output:\n${applyOutput}"
+                }
+            }
+        }
+    }
+}

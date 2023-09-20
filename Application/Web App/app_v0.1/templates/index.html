@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trigger Jenkins Pipeline</title>
+</head>
+<body>
+    <h1>Trigger Jenkins Pipeline</h1>
+    <form action="/trigger-pipeline" method="POST">
+        <label for="username">Jenkins Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="token">Jenkins Token/Password:</label>
+        <input type="password" id="token" name="token" required><br><br>
+
+        <input type="submit" value="Trigger Pipeline">
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm AWS Instance Information</title>
+    <style>
+        /* Add some basic CSS styling to the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Confirm AWS Instance Information for Patching</h1>
+    <table>
+        <tr>
+            <th>Instance ID</th>
+            <th>IP Address</th>
+            <th>Computer Name</th>
+        </tr>
+        {% for item in instance_info %}
+        <tr>
+            <td>{{ item.InstanceId }}</td>
+            <td>{{ item.IPAddress }}</td>
+            <td>{{ item.ComputerName }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <form action="/confirm-instance-info" method="POST">
+        <label for="message">Publish Message:</label>
+        <input type="text" id="message" name="message" required><br><br>
+        <input type="submit" value="Publish">
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm AWS Instance Information</title>
+</head>
+<body>
+    <h1>Confirm AWS Instance Information for Patching</h1>
+    <pre>{{ instance_info }}</pre>
+    <form action="/confirm-instance-info" method="POST">
+        <label for="message">Publish Message:</label>
+        <input type="text" id="message" name="message" required><br><br>
+        <input type="submit" value="Publish">
+    </form>
+</body>
+</html>

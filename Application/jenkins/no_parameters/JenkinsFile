@@ -1,0 +1,68 @@
+pipeline {
+    agent {
+        label 'cz-bb-jenkins-slave1' // Replace with your slave label
+    }
+    environment {
+        S3_BUCKET = 'ssm-patch-automation-cz' // Replace with your bucket
+        S3_OBJECT_KEY = 's3://ssm-patch-automation-cz/SSM/ssm_windows_patching/' // Specify the URI from the S3 bucket
+        WORK_DIR = "${WORKSPACE}/terraform-code"
+        PLAN_FILE = "${WORK_DIR}/tfplan"
+        file_temp = "${WORK_DIR}/cleaned_tfplan"
+    }
+    stages {
+        stage('Download Terraform Code') {
+            steps {
+                echo '--- Downloading Terraform Code ---'
+                script {
+                    // Create a directory to store Terraform code
+                    sh "mkdir -p ${WORK_DIR}"
+                    
+                    // Download the Terraform code folder from S3
+                    sh "aws s3 sync ${S3_OBJECT_KEY} ${WORK_DIR}"
+                }
+            }
+        }
+        stage('Terraform Init') {
+            steps {
+                echo '--- Initializing Terraform ---'
+                script {
+                    sh "cd ${WORK_DIR} && terraform init"
+                }
+            }
+        }
+        stage('Terraform Plan') {
+            steps {
+                echo '--- Creating Terraform Plan ---'
+                script {
+                    sh "cd ${WORK_DIR} && terraform plan -out=tfplan | sed 's/\\x1B\\[[0-9;]*[mK]//g' > tfplan"
+                    def tfplanPath = "${WORK_DIR}/tfplan"
+                    sh "echo 'Here is the Plan: ' && cat ${tfplanPath}"
+                }
+            }
+        }
+        stage('Confirm Plan') {
+            steps {
+                echo '--- Confirming Terraform Plan ---'
+                input message: 'Review the Terraform plan above. Proceed with apply?', ok: 'Deploy'
+            }
+        }
+        // stage('Terraform Apply') {
+        //     steps {
+        //         echo '--- Applying Terraform Plan ---'
+        //         script {
+        //             def applyOutput = sh(script: "cd ${WORK_DIR} && terraform apply -auto-approve", returnStatus: true, returnStdout: true)
+        //             echo "Terraform Apply Output:\n${applyOutput}"
+        //         }
+        //     }
+        // }
+        stage('Terraform Destroy') {
+            steps {
+                echo '--- Destroy Terraform Plan ---'
+                script {
+                    def applyOutput = sh(script: "cd ${WORK_DIR} && terraform destroy -auto-approve", returnStatus: true, returnStdout: true)
+                    echo "Terraform Destroy Output:\n${applyOutput}"
+                }
+            }
+        }
+    }
+}

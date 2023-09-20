@@ -1,0 +1,22 @@
+[
+    {
+        "InstanceId": "i-035a84164844575b5",
+        "IPAddress": "10.0.2.152",
+        "ComputerName": "EC2AMAZ-EK9M63V.WORKGROUP"
+    },
+    {
+        "InstanceId": "i-046437250caa69b9c",
+        "IPAddress": "10.0.6.97",
+        "ComputerName": "cz-bb-dc1.cloudops.com"
+    },
+    {
+        "InstanceId": "mi-05a4bf994b664bfe6",
+        "IPAddress": "10.1.0.4",
+        "ComputerName": "Windows-2016.WORKGROUP"
+    },
+    {
+        "InstanceId": "i-0eac6847eab9bbd9c",
+        "IPAddress": "10.0.11.138",
+        "ComputerName": "cz-bb-wsus.cloudops.com"
+    }
+]

@@ -1,0 +1,35 @@
+<!-- templates/pipeline.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pipeline Page</title>
+</head>
+<body>
+    <h1>Pipeline Page</h1>
+    <p>Select an environment:</p>
+    <form action="/trigger-pipeline" method="POST">
+        <select name="pipeline_option">
+            <option value="stage">Stage</option>
+            <option value="infra">Infrastructure</option>
+            <option value="prod1">Production 1</option>
+            <option value="prod2">Production 2</option>
+        </select><br><br>
+
+        <!-- Add the following line to include a dropdown for environment -->
+        <!-- <select name="environment">
+            <option value="stage">Stage</option>
+            <option value="infra">Infrastructure</option>
+            <option value="prod1">Production 1</option>
+            <option value="prod2">Production 2</option>
+        </select><br><br> -->
+
+        <label for="username">Jenkins Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="token">Jenkins Token/Password:</label>
+        <input type="password" id="token" name="token" required><br><br>
+
+        <input type="submit" value="Trigger Pipeline">
+    </form>
+</body>
+</html>
