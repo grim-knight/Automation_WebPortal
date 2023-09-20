@@ -10,7 +10,8 @@ Windows Pre-req
 For windows environment setup your own WSUS --> https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/plan/plan-your-wsus-deployment
 (Setting up WSUS will help you create air gapped environment and only apply approved patches by your org) Here is youtube tutorial --> https://www.youtube.com/watch?v=Yv0qjxdX5yw
 
-
+http://www.isolation.se/importing-hotfixes-and-drivers-directly-into-wsus/
+Patch Manager Plus - https://www.manageengine.com/patch-management/wsus-alternative.html
 
 
 Install the following packages
