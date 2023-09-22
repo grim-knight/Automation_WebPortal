@@ -1,6 +1,15 @@
 from flask import Flask
 from jenkins_app import JenkinsApp
 from jenkins_client import JenkinsClient
+import logging
+
+# Configure logging
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
+
+# Add log messages
+logging.debug('Debug message')
+logging.info('Info message')
+logging.warning('Warning message')
 
 
 app = Flask(__name__)

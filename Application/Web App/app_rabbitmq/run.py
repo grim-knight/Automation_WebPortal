@@ -3,6 +3,16 @@ from jenkins_app import JenkinsApp
 from rabbitmq_client import RabbitMQClient
 from jenkins_client import JenkinsClient
 from rabbitmq_publisher import RabbitMQPublisher
+import logging
+
+# Configure logging
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
+
+# Add log messages
+logging.debug('Debug message')
+logging.info('Info message')
+logging.warning('Warning message')
+
 
 app = Flask(__name__)
 
