@@ -15,7 +15,8 @@ logging.warning('Warning message')
 app = Flask(__name__)
 
 # Jenkins credentials
-jenkins_url = 'http://18.188.2.254:8080/'
+# Change the values based on your config
+jenkins_url = 'http://18.117.106.39:8080/'
 jenkins_username = 'admin'
 jenkins_password = '1234'
 
