@@ -94,8 +94,8 @@ for instance in filtered_instances:
             Tags=[{'Key': 'PatchGroup', 'Value': default_patch_group}]
         )
 
-        logging.info(f"Created 'PatchGroup' tag for instance ID {instance_id}, Name: {computer_name} with tag: {patch_group_tag['Key']} and value {default_patch_group}")
+        logging.info(f"Created 'PatchGroup' tag for instance ID {instance_id}, Name: {computer_name} with value {default_patch_group}")
     else:
-        logging.info(f"'PatchGroup' tag already exists for instance ID {instance_id}, Name: {computer_name} with tag: {patch_group_tag['Key']} and value {patch_group_tag['Value']}")
+        logging.info(f"'PatchGroup' tag already exists for instance ID {instance_id}, Name: {computer_name} with value {patch_group_tag['Value']}")
 
 print(f"Output saved to {output_file}")

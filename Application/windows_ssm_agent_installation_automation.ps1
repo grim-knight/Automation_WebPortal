@@ -4,23 +4,22 @@ Make sure you copy the ssm agent installation script in a shared directory path
 From where all the servers can access and copy the scripts localy to their installer folder in C drive.
 """
 
-$SL_Location = '' # Location of the server list txt file
-$SL_FileName = '' # Specify the list of servers in which the ssm agent must be installed
+$SL_Location = ''
+$SL_FileName = ''
 $srvlist = @(Get-Content -Path $SL_Location$SL_FileName'.txt')
 $srvlist #.count
 
 foreach ($srv in $srvList) {
 
-    # Pass the path to the shared directory where the installation script is located at
-    $Path = "\windows_ssm_agent_instalation_script.ps1"
+        Write-Host -ForegroundColor Cyan "$srv"
 
+        $Path = ""
 
-    Write-Output "$srv   - Copying SSMAgent installation script to C:\installer"
-    Copy-Item "$Path" \\$srv\c$\installer
-    Write-Output "$srv   - Successfully copied SSMAgent installation script to C:\installer"
+        Write-Output "$srv   - Copying SSMAgent installation script to C:\installer"
+        Copy-Item "$Path" \\$srv\c$\installer
+        Write-Output "$srv   - Successfully copied SSMAgent installation script to C:\installer"
 
-    
-    Invoke-Command -ComputerName $srv -ThrottleLimit 1 -ScriptBlock { 
-        "C:\Installer\hybridactivation_ssm.ps1"
-    }
+        Invoke-Command -ComputerName $srv -ThrottleLimit 1 -ScriptBlock { 
+            Start-Process -FilePath "powershell" -ArgumentList "C:\installer\hybridactivation_ssm.ps1" -Verb RunAs -NoNewWindow
+        }
 }
