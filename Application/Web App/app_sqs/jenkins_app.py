@@ -117,7 +117,7 @@ class JenkinsApp:
                 flash('Pipeline is canceled by the user....Abort published')
             time.sleep(30)
             msgs = sqs.receive_message(QueueUrl=queue_url)
-            receipt_handle = msgs.receipt_handle
+            receipt_handle = msgs.ReceiptHandle
             sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=receipt_handle)
             return redirect(url_for('flash_messages'))
 
