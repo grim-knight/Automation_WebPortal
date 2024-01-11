@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server/VM Update Status</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Server/VM Update Status</h2>
+     <!-- Dropdown for Update Status -->
+     <div class="mb-3">
+        <label for="updateStatus">Update Status:</label>
+        <select class="form-control" id="updateStatus">
+            <option value="Failed">Failed</option>
+            <option value="Installed">Installed</option>
+            <option value="Any">Any</option>
+        </select>
+    </div>
+    <div class="row">
+        <!-- Dashboard List on Left Side -->
+        <div class="col-md-3">
+            <h4>Environment</h4>
+            <ul class="list-group" id="dashboardList">
+                {% for dashboard in dashboards %}
+                    <li class="list-group-item dashboardItem" data-filename="{{ dashboard.filename }}">{{ dashboard.alias }}</li>
+                {% endfor %}
+            </ul>
+        </div>        
+
+        <!-- CSV Display on Right Side -->
+        <div class="col-md-9">
+            <div id="csvDisplay">
+                <!-- Display the selected CSV content here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+<script>
+    var socket = io.connect('http://' + document.domain + ':' + location.port + '/update');
+
+    function loadDashboard(filename) {
+        $.get("/get_csv/" + filename, function(data){
+            $("#csvDisplay").html(data);
+        });
+    }
+
+    $(document).ready(function() {
+        // Attach a click event to list items
+        $(".dashboardItem").click(function() {
+            var filename = $(this).data("filename");
+            loadDashboard(filename);
+        });
+
+        // Update data on 'update' event
+        socket.on('update', function() {
+            var selectedFilename = $(".dashboardItem.active").data("filename");
+            if (selectedFilename) {
+                loadDashboard(selectedFilename);
+            }
+        });
+        update_data_and_emit();
+        });
+</script>
+
+</body>
+</html>

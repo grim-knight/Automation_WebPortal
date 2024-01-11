@@ -1,6 +1,8 @@
+from distutils.log import debug
 from flask import Flask
 from jenkins_app import JenkinsApp
 from jenkins_client import JenkinsClient
+from dashboard import Dashboard, dashboard_bp
 import logging
 
 # Configure logging
@@ -11,8 +13,8 @@ logging.debug('Debug message')
 logging.info('Info message')
 logging.warning('Warning message')
 
-
 app = Flask(__name__)
+app.register_blueprint(dashboard_bp)
 
 # Jenkins credentials
 # Change the values based on your config
@@ -23,6 +25,8 @@ jenkins_password = '1234'
 # Initialize classes
 jenkins_client = JenkinsClient(jenkins_url, jenkins_username, jenkins_password)
 
+
+
 if __name__ == '__main__':
-    app_instance = JenkinsApp(jenkins_client)
-    app_instance.run()
+    app = JenkinsApp(jenkins_client)
+    app.run()

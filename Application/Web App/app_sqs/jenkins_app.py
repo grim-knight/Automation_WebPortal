@@ -6,6 +6,8 @@ import json
 import boto3
 import time
 from jenkins_client import JenkinsClient  # Import JenkinsClient
+from dashboard import Dashboard
+
 
 class JenkinsApp:
     def __init__(self, jenkins_client):
@@ -13,13 +15,18 @@ class JenkinsApp:
         self.app.debug  = True
         self.app.secret_key = 'automate'  # Set your secret key here
         self.jenkins_client = jenkins_client  # Store JenkinsClient instance
+        self.dashboards = [Dashboard('Stage.csv', 'Stage', encoding='UTF-8'), Dashboard('Prod.csv', 'Prod', encoding='UTF-8'),
+        Dashboard('Infra.csv', 'Infra', encoding='UTF-16')]
         
-        # Define routes
+        
+        # App Routes
         self.app.route('/')(self.landing)  # Landing page
         self.app.route('/pipeline')(self.pipeline_page)  # Pipeline page
         self.app.route('/trigger-pipeline', methods=['POST'])(self.trigger_pipeline)  # Trigger selected pipeline
-        self.app.route('/confirm-instance-info', methods=['POST'])(self.confirm_instance_info)  # Confirm instance information
-        self.app.route('/flash_messages', methods=['GET'])(self.flash_messages)  # Confirm instance information
+        self.app.route('/confirm-instance-info', methods=['POST'])(self.confirm_instance_info)  # Confirm instance/server information
+        # self.app.route('/flash_messages', methods=['GET'])(self.flash_messages)
+        self.app.route('/dashboard')(self.dashboard_page) # dashboard page
+        self.app.route('/dashboard/update_dashboards', methods=['POST'])(self.update_dashboards)
 
     def run(self):
         self.app.run(host='127.0.0.1', port=5000)
@@ -108,9 +115,28 @@ class JenkinsApp:
                 # message_body = 'Pipeline is canceled by the user... Abort published'
                 sqs.send_message(QueueUrl=queue_url, MessageBody=user_message, MessageGroupId=msg_grp_id)
                 flash('Pipeline is canceled by the user....Abort published')
-            time.sleep(15)
-            sqs.purge_queue(QueueUrl=queue_url)
+            time.sleep(30)
+            msgs = sqs.receive_message(QueueUrl=queue_url)
+            receipt_handle = msgs.receipt_handle
+            sqs.delete_message(QueueUrl=queue_url, ReceiptHandle=receipt_handle)
             return redirect(url_for('flash_messages'))
 
         except Exception as e:
             return jsonify({'message': f'Failed to confirm instance info: {str(e)}'}), 500
+    
+    
+    def dashboard_page(self):
+        print(self.dashboards)    
+        return render_template('dashboard.html', dashboards=self.dashboards)
+
+    def update_dashboards(self):
+        try:
+            # update CSV files or trigger the function that updates those files
+            Dashboard.run_powershell_script()
+            print("Powershell execution complete")
+            Dashboard.update_csv_and_dashboards()
+            return jsonify({'message': 'Dashboards updated successfully'})
+        except Exception as e:
+            return jsonify({'message': f'Failed to update dashboards: {str(e)}'}), 500
+
+

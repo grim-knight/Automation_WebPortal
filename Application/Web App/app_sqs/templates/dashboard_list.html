@@ -1,0 +1,6 @@
+<!-- dashboard_list.html -->
+<ul class="list-group" id="dashboardList">
+    {% for dashboard in dashboards %}
+        <li class="list-group-item dashboardItem" data-filename="{{ dashboard.filename }}">{{ dashboard.alias }}</li>
+    {% endfor %}
+</ul>

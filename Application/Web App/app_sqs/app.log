@@ -1,0 +1,1076 @@
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:35] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:35] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:37] "GET /pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:44] "GET /pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:46] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:46] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 21:57:46] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=74949626): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74950053): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74950080): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=18000, id=74950270): is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48008329, flags=18000, id=74950273): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74950441): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74950665): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74950984): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74951202): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74951504): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74951719): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=74952701): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74953287): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=74953299): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:00:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:00:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:00:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:00:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74953834): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74954037): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74956215): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74956518): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=74957341): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74957682): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=74957694): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=74957740): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48008817, flags=418000, id=74957749): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74957752): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=74957896): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=74957918): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48008849, flags=418000, id=74958546): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74960559): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74960850): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=74967496): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=410000, id=74967521): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=74968099): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74968102): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=74968111): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:06:23] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:06:26] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:06:27] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:06:28] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=74973072): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74973385): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=74977673): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=410000, id=74977694): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=74978272): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=74978278): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74978287): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:04] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:05] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:07] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:07] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:08] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:36] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:36] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:37] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:37] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:37] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:38] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:12:38] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:14:58] "[33mGET /get_csv/Book1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:05] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:44] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:47] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:47] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:48] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:48] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:15:49] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:16:05] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=74995079): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=410000, id=74995107): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=74995967): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74995970): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=74995976): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:34] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:40] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:41] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:41] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=74996638): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=410000, id=74996669): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=74997223): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=74997229): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=74997238): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:17:57] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75000506): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75000828): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:41] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:42] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:42] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:43] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:44] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:45] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:45] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:46] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:20:46] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:22:08] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:22:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:23:42] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:24:17] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:24:18] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:24:19] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75014274): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75014302): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75015222): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75015225): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48012732, flags=418000, id=75015262): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75015283): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75015286): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75016329): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75016351): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75016824): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48012869, flags=418000, id=75016827): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75016833): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75016901): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75016920): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75017247): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75017256): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75018787): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75018809): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75019181): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75019196): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48013016, flags=418000, id=75019260): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75019266): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75019269): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:30:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:30:51] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:30:52] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75025354): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75025378): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75026174): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48013481, flags=418000, id=75026183): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75026186): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:33:50] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75028205): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75028670): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75028673): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:35:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:35:50] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75038671): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75038693): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75039171): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75039180): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75039235): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48014365, flags=418000, id=75039253): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75039259): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:39:27] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:39:32] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75040863): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75041344): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75042498): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75042540): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75043272): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48014618, flags=418000, id=75043281): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75043284): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:40:38] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:40:41] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:40:41] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:40:42] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75045036): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75045731): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75045737): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:42:06] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:42:33] "GET /pipeline HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:42:39] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 22:42:43] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75047680): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75047702): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75048176): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48014940, flags=418000, id=75048179): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75048185): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75048743): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75048765): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75049061): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75049073): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75049393): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75049411): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75049743): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75049764): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75102183): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75102204): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75103092): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48019180, flags=418000, id=75103107): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75103110): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75118805): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:14:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:14:42] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:14:43] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=11400, id=75124015): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=410000, id=75124043): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75126929): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=18000, id=75126944): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48020241, flags=18000, id=75127033): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75127039): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75127045): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=18000, id=75127048): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', is_directory=False>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75127133): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75127158): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:23] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:23] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:23] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:23] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75131415): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75131437): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75132188): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75132203): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75132308): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75132314): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48020998, flags=418000, id=75132326): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:20:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75132979): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75133208): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75133527): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75133810): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75133907): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=75133929): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:21:13] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:21:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:21:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:21:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75134673): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75134679): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48021150, flags=418000, id=75134691): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75135330): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75135796): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75136678): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75137231): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75139058): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75139335): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75139418): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75139463): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:24:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:24:30] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:24:31] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:24:32] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75142715): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=75143421): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75143430): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:25:20] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75144088): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=75144094): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:25:41] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48021812, flags=418000, id=75144744): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:28:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:28:36] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:28:37] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:28:38] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:28:38] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:36:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:36:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:36:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:36:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75196706): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75197354): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75197363): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=75197475): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48025634, flags=418000, id=75197478): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75197499): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75197508): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75197674): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75197825): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75198144): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75198778): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75198993): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75199364): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75199618): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=11400, id=75199882): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=410000, id=75199897): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:18] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75201794): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75201815): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=418000, id=75202262): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75202277): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75202572): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75202587): is_cloned, is_file
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:38] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:40] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75202919): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:40] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:39:40] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75203318): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75203536): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75203872): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75204283): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75205273): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75205545): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75206028): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75206311): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py", inode=40164581, flags=11400, id=75206983): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/run.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75208376): is_cloned, is_file
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:42:11] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75208619): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:42:17] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:42:18] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:42:19] "[33mGET /get_csv/temp.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:43:11] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75212114): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75212373): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=75212420): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=410000, id=75212442): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75212718): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=75212727): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=75212745): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=11400, id=75213845): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=75213860): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html", inode=48003760, flags=418000, id=75214399): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75214408): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates/dashboard.html', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates", inode=40164583, flags=20400, id=75214417): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/templates', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75216662): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75216690): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:45:57] "GET /dashboard HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48026882, flags=418000, id=75217511): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75217520): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75217532): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:45:58] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:45:59] "[33mGET /get_csv/Book2.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=11400, id=75219388): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=410000, id=75219410): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75219787): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py", inode=47336444, flags=418000, id=75219796): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/dashboard.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75220102): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48027045, flags=418000, id=75220105): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75220114): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:47:31] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:47:32] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:49:22] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:49:39] "[33mGET /get_csv/Book1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/app.log", inode=48004034, flags=410000, id=75225452): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75225858): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/Book1.csv", inode=48006479, flags=10800, id=75226899): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv", inode=48006479, flags=10800, id=75226900): is_file, is_renamed
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv", inode=48006479, flags=10800, id=75226900)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/Book1.csv', dest_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv", inode=48006479, flags=18000, id=75226930): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv", inode=48006479, flags=18000, id=75227034): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/file1.csv', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75227229): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75227250): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48027547, flags=418000, id=75228005): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:52:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jan/2024 23:52:08] "[33mGET /get_csv/file1.csv HTTP/1.1[0m" 404 -
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 117-667-585
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75388827): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc", inode=48038014, flags=418000, id=75388833): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/dashboard.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75388842): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc", inode=48038013, flags=418000, id=75388900): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__/jenkins_app.cpython-39.pyc', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs", inode=40164448, flags=20400, id=75388903): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__", inode=40164586, flags=20400, id=75388924): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/__pycache__', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2024 01:25:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jan/2024 01:25:35] "[33mGET /get_csv/file1.csv HTTP/1.1[0m" 404 -
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=11400, id=75389826): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/viveksagarreddy/Desktop/DevOps/Work_Projects/Automation_WebPortal/Application/Web App/app_sqs/jenkins_app.py", inode=40164577, flags=410000, id=75389854): is_cloned, is_file
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Debug message
+INFO:root:Info message
+WARNING:root:Warning message

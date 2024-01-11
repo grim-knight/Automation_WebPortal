@@ -1,0 +1,93 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server/VM Update Status</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+ 
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Server/VM Update Status</h2>
+    <!-- Dropdown for Update Status -->
+    <div class="mb-3">
+        <label for="updateStatus">Update Status:</label>
+        <select class="form-control" id="updateStatus">
+            <option value="FailedOrNeeded">FailedOrNeeded</option>
+            <option value="InstalledOrNotApplicableOrNoStatus">InstalledNotApplicableOrNoStatus</option>
+            <option value="Failed">Failed</option>
+            <option value="InstalledOrNotApplicable">InstalledNotApplicable</option>
+            <option value="NoStatus">NoStatus</option>
+            <option value="Any">Any</option>
+        </select>
+    </div>
+ 
+    <!-- Submit button -->
+    <button class="btn btn-primary" id="submitButton">Submit</button>
+ 
+    <div class="row">
+        <!-- Dashboard List on Left Side -->
+        <div class="col-md-3">
+            <h4>Environment</h4>
+            <ul class="list-group" id="dashboardList">
+                {% for dashboard in dashboards %}
+                    <li class="list-group-item dashboardItem" data-filename="{{ dashboard.filename }}">{{ dashboard.alias }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+ 
+        <!-- CSV Display on Right Side -->
+        <div class="col-md-9">
+            <div id="csvDisplay">
+                <!-- Display the selected CSV content here -->
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<script>
+    function loadDashboard(filename) {
+        $.get("/get_csv/" + filename, function(data){
+            $("#csvDisplay").html(data);
+        });
+    }
+ 
+    // Function to handle submit button click
+    function handleButtonClick() {
+        var selectedOption = $("#updateStatus").val();
+ 
+        // Make an AJAX request to your server when submit button is clicked
+        $.post("/update_script", { updateStatus: selectedOption }, function(response) {
+            console.log(response);  // Log the response, you can handle it as needed
+            // After the script is executed, update the dashboards
+            updateDashboards();
+        });
+    }
+ 
+    function updateDashboards() {
+        // Make an AJAX request to update dashboards after the script is executed
+        $.get("/update_dashboards", function(data) {
+            // Update the dashboard list with new data
+            $("#dashboardList").html(data);
+        });
+    }
+ 
+    $(document).ready(function() {
+        // Attach a click event to list items
+        $(".dashboardItem").click(function() {
+            var filename = $(this).data("filename");
+            loadDashboard(filename);
+        });
+ 
+        // Attach a click event to the submit button
+        $("#submitButton").click(function() {
+            handleButtonClick();
+        });
+    });
+</script>
+ 
+</body>
+</html>
